@@ -1,0 +1,26 @@
+{
+  "name": "snipe",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "assets:generate": "python3 scripts/generate-assets.py",
+    "assets:check": "python3 scripts/check-assets.py"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.33.2",
+    "@babylonjs/loaders": "^9.33.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "happy-dom": "^21.0.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
+  }
+}

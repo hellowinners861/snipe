@@ -1,0 +1,381 @@
+{
+  "version": 1,
+  "generator": "scripts/generate-assets.py",
+  "coordinateSystem": {
+    "up": "+Y",
+    "forward": "+Z",
+    "units": "meters"
+  },
+  "rifleAnchors": {
+    "ranger": {
+      "lengthM": 1.008,
+      "muzzle": [
+        0,
+        0.031,
+        0.49
+      ],
+      "eye_point": [
+        0,
+        0.153,
+        -0.24
+      ],
+      "scope_mount": [
+        0,
+        0.108,
+        0.025
+      ],
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    "sentinel": {
+      "lengthM": 1.178,
+      "muzzle": [
+        0,
+        0.031,
+        0.62
+      ],
+      "eye_point": [
+        0,
+        0.153,
+        -0.24
+      ],
+      "scope_mount": [
+        0,
+        0.108,
+        0.025
+      ],
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    "kestrel": {
+      "lengthM": 1.048,
+      "muzzle": [
+        0,
+        0.031,
+        0.49
+      ],
+      "eye_point": [
+        0,
+        0.153,
+        -0.24
+      ],
+      "scope_mount": [
+        0,
+        0.108,
+        0.025
+      ],
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    "atlas": {
+      "lengthM": 1.318,
+      "muzzle": [
+        0,
+        0.031,
+        0.76
+      ],
+      "eye_point": [
+        0,
+        0.153,
+        -0.24
+      ],
+      "scope_mount": [
+        0,
+        0.108,
+        0.025
+      ],
+      "forward": "+Z",
+      "up": "+Y"
+    }
+  },
+  "assets": [
+    {
+      "id": "ranger",
+      "path": "models/ranger.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 318500,
+      "sha256": "6a389920d7a76273296c0a6cab6ca1db37713d106beb1435dda543e40e315bb1",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "sentinel",
+      "path": "models/sentinel.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 366928,
+      "sha256": "4170bc8ca2ff111724666e872417a7f66db0053ad964040416d0fd619850e89a",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "kestrel",
+      "path": "models/kestrel.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 364412,
+      "sha256": "9eec01608183fb157bf6d948290970796b25ead867e8143b832c109bf68a36e6",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "atlas",
+      "path": "models/atlas.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 366740,
+      "sha256": "6f2376b722e214bc077ddaf5eba7fbab976f9caea14ea986acdd9e58b418412d",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "target_paper",
+      "path": "models/target_paper.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 146612,
+      "sha256": "c01a58e35614daba5353ad97e4f86633a59b694ac377e4fbd0cdabdcc4dcafc6",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "target_gong",
+      "path": "models/target_gong.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 30268,
+      "sha256": "aaf4dd0c7852851b168d274513812ce1e9f4d069a2ab28b0e1fb10225035315e",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "target_plate",
+      "path": "models/target_plate.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 30272,
+      "sha256": "ae25f2b515e5f8a6b07f118addc37f0576c9d857ecf59f8c9e2d974a1065e210",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "target_reactive",
+      "path": "models/target_reactive.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 48616,
+      "sha256": "cee74aa32e2075159bb1f9861fc6cbf17627aa1f1b43fd354049e35f79a3e98f",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "wind_flag",
+      "path": "models/wind_flag.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 24804,
+      "sha256": "70337ad6c900f02f9a860ade11319682ef856f9cd48080e60ba3dc14b8978811",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "scope_field",
+      "path": "models/scope_field.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 134208,
+      "sha256": "956619168a3f7df18e47a132a8231eba8fd9a7cda68d3cac3e7eb2ed76f7bbf4",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "scope_precision",
+      "path": "models/scope_precision.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 134236,
+      "sha256": "01982d437c2724b27ae38a09489ef313e5d915b3b10342332741e3234ab1a9d7",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "scope_survey",
+      "path": "models/scope_survey.glb",
+      "type": "model/gltf-binary",
+      "sizeBytes": 134208,
+      "sha256": "bfdd8135136b9a610485c2d3ba65b51a56bfef753a47e85dcde73552c37a1c0b",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "ambient",
+      "path": "audio/ambient.wav",
+      "type": "audio/wav",
+      "sizeBytes": 705644,
+      "sha256": "dac18b99cc0f2a4712f0c986a27db112abdb6eb06202db60907fcbc62be0af4e",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "shot_ranger",
+      "path": "audio/shot_ranger.wav",
+      "type": "audio/wav",
+      "sizeBytes": 37528,
+      "sha256": "e27094e9ff9e93ec0a75b734aaf375ee230381057526fffe834df08f2848122c",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "shot_sentinel",
+      "path": "audio/shot_sentinel.wav",
+      "type": "audio/wav",
+      "sizeBytes": 37528,
+      "sha256": "3403d362326a3c9665939aa8bc11f1f77347d2b9162689e0a8b47bc4d39db12d",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "shot_kestrel",
+      "path": "audio/shot_kestrel.wav",
+      "type": "audio/wav",
+      "sizeBytes": 37528,
+      "sha256": "89377993134c7b39211fae966b91a70a568874fcde14daf8df6cb062dac5bcb5",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "shot_atlas",
+      "path": "audio/shot_atlas.wav",
+      "type": "audio/wav",
+      "sizeBytes": 37528,
+      "sha256": "00c4c0aa136eae8f196385d4518a19d2e8023144ff7143a00b320126195e131d",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "bolt",
+      "path": "audio/bolt.wav",
+      "type": "audio/wav",
+      "sizeBytes": 24298,
+      "sha256": "b3909d56a5ef00de61f1494e303da3388ef81725e263a3044afda6a5ae1c8c09",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "reload",
+      "path": "audio/reload.wav",
+      "type": "audio/wav",
+      "sizeBytes": 48554,
+      "sha256": "f7dc84e8505a1a80ce78ac758b7f1d3cdcfa547a66831f288b7d7100b9b432c9",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "impact_metal",
+      "path": "audio/impact_metal.wav",
+      "type": "audio/wav",
+      "sizeBytes": 79424,
+      "sha256": "ec3acfc799863d02c1dfe9ba956ca161e04dda3121ff86c068f552204cc25079",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "impact_paper",
+      "path": "audio/impact_paper.wav",
+      "type": "audio/wav",
+      "sizeBytes": 8864,
+      "sha256": "4edde3335de4f89807fbcc7e36068824809e0f8cfe63f5169eb0311d8c2dd90a",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "impact_dirt",
+      "path": "audio/impact_dirt.wav",
+      "type": "audio/wav",
+      "sizeBytes": 16802,
+      "sha256": "3d3ff912a7fb67f69cf89d4b29e6927ea67e24c32ced59c1fc31504ddf530867",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "click",
+      "path": "audio/click.wav",
+      "type": "audio/wav",
+      "sizeBytes": 4454,
+      "sha256": "0306896c0259c64c1f3ea07f801ec1de98cc785a7206ca1a3d4a3d662d7e4ff1",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    },
+    {
+      "id": "success",
+      "path": "audio/success.wav",
+      "type": "audio/wav",
+      "sizeBytes": 79424,
+      "sha256": "aee33509a319ac1b45e5d9535acd2af9e03c86b8abd46b9d80874fbe4da0a00e",
+      "author": "SNIPE project",
+      "source": "Original procedural asset",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "modifications": "Generated from project source; no external media."
+    }
+  ]
+}
