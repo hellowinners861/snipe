@@ -1,0 +1,29 @@
+name: Validate game
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Validate original 3D and audio assets
+        run: npm run assets:check
+      - name: Test physics, missions, state and DOM flows
+        run: npm test
+      - name: Typecheck and build production bundle
+        run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: snipe-static-build
+          path: dist/
+          retention-days: 7

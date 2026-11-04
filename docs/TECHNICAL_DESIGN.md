@@ -4,6 +4,8 @@
 
 関連文書: [ゲーム設計書](GAME_DESIGN.md)、[README](../README.md)
 
+本書は初版設計の記録。現在の実装範囲・採用方式・検証結果は[実装・検証記録](IMPLEMENTATION_STATUS.md)を参照する。
+
 ## 1. リポジトリの確認結果と前提
 
 GitHubで `hellowinners861/snipe` を確認した。開始時点の公開リポジトリは空で、ブランチ一覧は空、Contents APIも空のリポジトリと応答した。既存のソース、パッケージ、AGENTS.md、モデル、音源、ビルド設定は存在しなかった。既存技術への制約はない。
